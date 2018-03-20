@@ -25,7 +25,10 @@ import br.usjt.arqsw.service.FilaService;
 
 @Controller
 public class ManterChamadosController {
+<<<<<<< HEAD
 	
+=======
+>>>>>>> branch 'master' of https://github.com/LPHolanda/arqsw_sdesk
 	private FilaService filaService;
 	private ChamadoService chamadoService;
 
