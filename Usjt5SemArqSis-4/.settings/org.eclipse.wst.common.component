@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Usjt5SemArqSis-4">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/arqsw_sdesk_a1/src"/>
+        <property name="context-root" value="Usjt5SemArqSis-4"/>
+        <property name="java-output-path" value="/Usjt5SemArqSis-4/arqsw_sdesk_a1/build/classes"/>
+    </wb-module>
+</project-modules>
