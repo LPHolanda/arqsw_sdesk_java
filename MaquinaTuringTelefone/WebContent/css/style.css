@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+
+	font-family: 'Ubuntu', cursive;
+	overflow-x: hidden;
+  background-color: #E8F0F7;
+
+}
+#painel{
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+
+
+#number{
+  position: top;  
+  width: 200px;
+}
+
+/*RESTRINGE DIGITAR APENAS NUMEROS*/
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  cursor:pointer;
+  display:block;
+  width:8px;
+  color: #333;
+  text-align:center;
+  position:relative;
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+ margin: 0; 
+}
+
+
+.panel-phone{
+ background-color: #491C89;
+ color: #FFF;
+ border: none;
+ border-radius: 20px;
+}
+
+
+#painelPhone{
+	padding-top: 50px;
+  border-radius: 20px;
+}
+.panel-phone{
+ background-color: #381569;
+ color: #FFF;
+ border: none;
+ border-radius: 0px;
+}
+
+.panel-phone>.panel-heading .tabs{
+  padding: 0;
+}
+.panel-phone h2{
+  font-size: 30px;
+  font-weight: 300;
+  margin: 30px;
+  padding-top: 0px;
+
+}
+.panel-phone .form-group {
+  padding: 0 30px;
+}
+
+.panel-phone input[type="text"],.panel-login input[type="password"] {
+  height: 45px;
+  background-color:#172D44;
+  border: 0;
+  color: #FFF;
+  font-size: 16px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 20px;
+  padding: 6px 0px;
+}
+.btn-call-submit {
+  background-color: #1ABB9C;
+  outline: none;
+  color: #FFF;
+  font-size: 14px;
+  height: 70px;
+  width: 70px;
+  font-weight: normal;
+  padding-top: 10px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 100px;
+}
+
+
+
+
